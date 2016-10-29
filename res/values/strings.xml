@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">College</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_course">AddCourse</string>
+    <string name="title_activity_add_branch">AddBranch</string>
+    <string name="title_activity_add_subject">AddSubject</string>
+    <string name="title_activity_add_class">AddClass</string>
+    <string name="title_activity_startup">Startup</string>
+    <string name="title_activity_viewcourse">viewcourse</string>
+    <string name="search">Search</string>
+    <string name="title_activity_viewbranch">viewbranch</string>
+    <string name="title_activity_viewsubject">viewsubject</string>
+    <string name="title_activity_viewclas">viewclas</string>
+    <string name="title_activity_edit_course">EditCourse</string>
+    <string name="title_activity_edit_branch">EditBranch</string>
+    <string name="title_activity_edit_subject">EditSubject</string>
+    <string name="title_activity_edit_classs">EditClasss</string>
+</resources>

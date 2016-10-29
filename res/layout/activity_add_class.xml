@@ -1,0 +1,103 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ android:paddingTop="5dp"
+    android:paddingBottom="15dp"
+    android:background="@drawable/background"
+    android:weightSum="8">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:weightSum="8">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/class_course"></Spinner>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/class_branch"></Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/class_subject"></Spinner>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/class_semester"></Spinner>
+
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="Enter Class Name"
+            android:layout_weight="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:id="@+id/cname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="Enter Class Duration"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:id="@+id/cduration"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="Enter Class Start Time"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:id="@+id/cstart"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.5"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="clear"
+                android:id="@+id/course_clear"
+                android:layout_margin="20dp"
+                android:background="@drawable/rectangle"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle"
+                android:text="save"
+                android:id="@+id/course_save"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+

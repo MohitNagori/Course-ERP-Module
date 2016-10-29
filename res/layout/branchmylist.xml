@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5"
+    android:layout_margin="10dp"
+    >
+
+        <TextView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:background="@drawable/round_button"
+            android:padding="5dp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:id="@+id/namecourse"
+                android:text="Branch"
+                android:textColor="@color/icons"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/branchseats"
+                    android:layout_alignParentLeft="true"
+                    android:text="120"
+                    android:textColor="@color/icons"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/delete"
+                    android:src="@android:drawable/ic_menu_delete"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:id="@+id/edit"
+                    android:layout_toLeftOf="@+id/delete"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
